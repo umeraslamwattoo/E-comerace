@@ -1,0 +1,344 @@
+/* Style for Aside Menue Admins*/
+
+#logo2 {
+  height: 50px;
+}
+
+.text-center-mainheading {
+  text-align: center;
+
+}
+
+.maindiv {
+  height: 100vh;
+}
+
+.asidmain {
+  height: 100%;
+  background-color: white;
+  width: 15vw;
+  box-shadow: 0px 0px 4px 0px;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* style for products Admin */
+
+#products {
+  height: 50px;
+  box-shadow: -5px 1px 5px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#h1 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+#link1 p {
+  margin-top: 15px;
+}
+
+#link1 {
+  font-size: 15px;
+  margin-top: 10px;
+  border: none;
+  background-color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  width: 17vw;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 1px solid rgb(197, 197, 197);
+}
+
+#btn1 {
+  display: flex;
+  justify-content: center;
+}
+
+#btnlogout {
+  display: flex;
+  justify-content: center;
+}
+
+#link1:hover {
+  background-color: rgb(0, 162, 255);
+  border: none;
+  color: rgb(255, 255, 255);
+}
+
+#logout {
+
+  border: none;
+  background-color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  width: 17vw;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 10px;
+
+}
+
+/* Style for signup Admin */
+
+#contaierSignup {
+  height: 75vh;
+  box-shadow: 0px 0px 2px 0px;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+#contaierhotpro {
+  height: 70vh;
+  width: 100%;
+  box-shadow: 0px 0px 2px 0px;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 50px;
+}
+#inputhelp{
+  width: 100%;
+}
+#mainbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#showparentbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#showchildbox {
+  height: 90vh;
+  width: 70vw;
+  box-shadow: 0px 0px 2px 0px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+/* style for Admin Search */
+
+#searchbar {
+  height: 5vh;
+  margin-left: auto;
+  width: 250px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Style for Adin All dic Scrool */
+
+.scrollable-container {
+  max-height: 90vh;
+  overflow-y: auto;
+}
+#main-row-signup{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Style for All ASidemenue Admin For responsive nes  */
+@media only screen and (min-width: 320px) {
+  #row-mainformhot-signup{
+   padding: 10px;
+    width: 100%;
+  }
+
+  #logo2 {
+    height: 20px;
+    width: 45px;
+  }
+
+  #link1 {
+    font-size: 15px;
+    margin-top: 10px;
+    width: 80%;
+    height: 30px;
+  }
+
+  #link1 i {
+    margin-left: 10px;
+  }
+  #link1 p {
+    display: none;
+  }
+
+  .dropdown-toggle {
+    width: 10px;
+    height: auto;
+  }
+  .asidmain {
+    height: 100%;
+    width: 15vw;
+  }
+  #h1 {
+    font-weight: 600;
+    font-size: 12px;
+  }
+
+  #products {
+    height: 25px;
+    margin-top: 10px;
+  }
+
+  #logout {
+    width: 100%;
+    height: 20px;
+    font-size: 10px;
+  }
+
+  #btnlogout {
+    width: auto;
+  }
+
+  .text-center-mainheading {
+    text-align: center;
+    font-size: 15px;
+    line-height: 55px;
+  }
+
+  #contaierhotpro {
+    height: 75vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 600px;
+    box-shadow: 0px 0px 2px 0px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #mainforminput {
+    padding-top: 20px;
+    width: 90%;
+  }
+
+  #row-mainformhot {
+    width: 90%;
+  }
+  #imageinput{
+    width: 100%;
+  }
+  #main-container{
+    width: 240px;
+    padding-left: 15px;
+  }
+  
+}
+@media only screen  and (min-width: 375px){
+  #main-container{
+    width: 280px;
+    padding-left: 15px;
+  }
+}
+@media only screen  and (min-width: 425px){
+  #main-container{
+    width: 320px;
+    padding-left: 15px;
+  }
+}
+@media only screen  and (min-width: 768px){
+  #logo2 {
+    height: 45px;
+    width: auto;
+    margin: 5px;
+  }
+  .asidmain {
+    height: 100%;
+    width: 16vw;
+  }
+
+  #h1 {
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  #products {
+    height: 40px;
+    margin-top: 10px;
+  }
+  #link1 {
+    font-size: 13px;
+    margin-top: 10px;
+    width: 90%;
+    height: 30px;
+  }
+
+  #link1 i {
+    margin-left: 0px;
+  }
+  #link1 p {
+    display: flex;
+    font-size: 10px;
+  }
+  #main-container{
+    width: 600px;
+    padding-left: 15px;
+  }
+  #mainbtnhotcoldadd{
+    height: 40px;
+    width: 300px;
+  }
+  #mainbtnhotcoldadd-signup{
+    height: 40px;
+    width: 300px;
+    margin-left: 20px;
+  }
+  #contaierSignup {
+  width: 600px;
+  }
+  #row-mainformhot-signup{
+    width: 80%;
+
+  }
+  .text-center-mainheading {
+    font-size: 30px;
+    font-weight: 700;
+  }
+}
+@media only screen  and (min-width: 1024px){
+  #logo2 {
+    height: 50px;
+    width: auto;
+    margin: 10px;
+  }
+  #link1 {
+    font-size: 15px;
+  }
+  #link1 p {
+    display: flex;
+    font-size: 12px;
+  }
+  #main-container{
+    width: 1000px;
+    padding-left: 15px;
+  }
+}
+/* Style for Show Help Center */
